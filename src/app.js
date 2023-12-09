@@ -7,7 +7,7 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-document.querySelector("#btn").addEventListener("click", () => {
+  document.querySelector("#btn").addEventListener("click", () => {
     document.querySelector("#excuse").innerHTML = excuseGenerated();
   });
 };
@@ -38,4 +38,3 @@ let excuseGenerated = () => {
     when[whenIndex]
   );
 };
-
